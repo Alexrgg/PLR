@@ -1,6 +1,6 @@
 setup.arch_id = 1
 
-setup.dataset_path = "..." #Put the path for the dataset here! Use make_dataset.py to create the file.
+setup.dataset_path = "/content/drive/Othercomputers/My MacBook Pro/PassGAN_data/rockyou_frec.txt" #Put the path for the dataset here! Use make_dataset.py to create the file.
 setup.z_size = 128
 setup.z_prior = 1.0
 setup.x_size = 10

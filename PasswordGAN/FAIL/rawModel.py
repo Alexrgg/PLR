@@ -1,10 +1,15 @@
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior() 
+
 import numpy as np
 from tqdm import tqdm
 import os
 import shutil
 import collections
 import math
+
+tf.compat.v1.disable_v2_behavior()
 
 CHECK_ROOT_DIR = '../HOME/MODELS/'
 
